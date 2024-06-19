@@ -15,11 +15,7 @@ This Solidity program defines a simple smart contract named `BasicContract` inte
 
 - Initializes the contract by setting the deployer as the owner and initializing the balance to 0.
 
-### deposit(uint amount)
+### deposit
 
 - Allows the owner to deposit funds into the contract.
-- Parameters:
-    - `amount`: The amount of funds to deposit.
-- Restrictions:
-    - Can only be called by the owner of the contract.
-    - Ensures that the deposit operation does not cause a balance overflow.
+  
